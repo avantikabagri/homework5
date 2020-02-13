@@ -152,7 +152,6 @@ header{
 }
 
 .nav_links{
-  display: flex;
   flex-direction: column;
   list-style: none;
 }
@@ -181,7 +180,7 @@ header{
 
   .card {
     flex-basis: 250px;
-
+    width: 250px;
   }
 
   .card_big{
@@ -220,7 +219,6 @@ header{
   }
 
   .pricing{
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
